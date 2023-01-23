@@ -1,0 +1,120 @@
+.welcome-page {
+  text-align: center;
+  padding: 2em;
+}
+
+.start-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-align: center;
+}
+
+.start-page img {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.start-page h1 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.start-page input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.start-button {
+    background-color: #1e90ff; /* Dodgerblue */
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+}
+.font{
+  font-family: 'Playfair Display', serif; 
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.font-2{
+  font-family: 'Playfair Display', serif; 
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ffffff;
+  }
+
+.label{
+  font-family: 'Playfair Display', serif; 
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.input{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+}
+
+.username {
+  padding: 0.5em;
+  font-family: 'Playfair Display', serif; 
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: #1e90ff;
+  color: rgb(255, 255, 255);
+  padding: 12px 24px;
+  font-family: 'Playfair Display', serif; 
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+}
+
+.background{
+  background-color: black;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
